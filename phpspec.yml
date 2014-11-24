@@ -3,4 +3,4 @@ formatter.name: pretty
 suites:
     noahglaser_entitybundle:
         namespace: NoahGlaser\EntityBundle
-        src_path:  ' '
+        src_path:  './'
