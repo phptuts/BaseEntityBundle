@@ -1,0 +1,1 @@
+<h1>Symfony Base Entity Bundle</h1>
