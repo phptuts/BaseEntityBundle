@@ -12,6 +12,6 @@
             "email": "noah.php@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "require": {}
 }
