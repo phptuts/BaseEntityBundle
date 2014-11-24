@@ -5,8 +5,9 @@ namespace NoahGlaser\EntityBundle\Event;
 use Doctrine\Common\Persistence\Event\LifecycleEventArgs;
 use NoahGlaser\EntityBundle\Entity\File;
 use Symfony\Component\HttpKernel\Kernel;
+use Doctrine\Common\EventSubscriber;
 
-class FileSubscriber
+class FileSubscriber implements EventSubscriber
 {
     protected  $kernel_root;
     
@@ -23,7 +24,7 @@ class FileSubscriber
         $this->kernel_root = $kernel_root;
     }
 
-    public function getSubscribers()
+    public function getSubscribedEvents()
     {
         return [
             'prePersist', 
