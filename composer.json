@@ -1,0 +1,17 @@
+{
+    "name": "noahglaser/entitybundle",
+    "description": "This bundle contains the base entity that has createdAt and updatedAt stamps plus lifecycle events.  It also has File entity that is abstract that has a doctrine event attached to it that allows you to uplaod the file.",
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "phpspec/prophecy": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noah Glaser",
+            "email": "noah.php@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

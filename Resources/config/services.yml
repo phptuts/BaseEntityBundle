@@ -1,0 +1,6 @@
+services:
+    noah_glaser_entity.file_handle:
+        class: NoahGlaser\EntityBundle\Event\FileSubscriber
+        arguments: ["%kernel.root_dir%/../web/"]
+        tags:
+            - { name: doctrine.event_subscriber, connection: default }
