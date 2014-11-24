@@ -25,7 +25,7 @@ class FileSubscriberSpec extends ObjectBehavior
     
     function it_should_have_a_subscriber_method_return_array_of_events()
     {
-        $this->getSubscribers()->shouldReturn(['prePersist', 'preUpdate', 'postPersist', 'postUpdate','preRemove','postRemove']);
+        $this->getSubscribedEvents()->shouldReturn(['prePersist', 'preUpdate', 'postPersist', 'postUpdate','preRemove','postRemove']);
     }
     
    
