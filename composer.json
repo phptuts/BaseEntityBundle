@@ -13,5 +13,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": { "NoahGlaser\\EntityBundle": "" }
+    },
+    "target-dir": "NoahGlaser/EntityBundle"
+
 }
