@@ -16,7 +16,7 @@ abstract class File extends Base implements FileInterface
      *
      * @ORM\Column(name="path", type="string", length=255)
      */
-    private $path;
+    protected $path;
 
     /**
      * @var UploadedFile  
