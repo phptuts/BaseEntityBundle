@@ -3,7 +3,7 @@
 <h2>Installation Instructions</h2>
 
 <ol>
-  <li>Run composer require 'composer require 'noahglaser/entitybundle:1.0.1''</li>
+  <li>Run -> composer require noahglaser/entitybundle:1.0.1</li>
   <li>Add NoahGlaser\EntityBundle\NoahGlaserEntityBundle() to your AppKernel under the register function.</li>
   <li>Then just entend the Base and User entity classes</li>
 </ol>
