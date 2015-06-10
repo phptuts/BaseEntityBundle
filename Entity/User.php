@@ -29,7 +29,7 @@ abstract class User extends Base implements AdvancedUserInterface
    private $email;
    
    /**
-    * @ORM\Column(name="password", type="string", length=255)
+    * @ORM\Column(name="password", type="string", length=255, unique=true)
     * @var string
     */
    private $password;
