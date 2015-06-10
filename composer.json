@@ -12,7 +12,7 @@
             "email": "noah.php@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-0": { "NoahGlaser\\EntityBundle": "" }
