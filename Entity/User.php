@@ -23,7 +23,7 @@ use Symfony\Component\Security\Core\User\AdvancedUserInterface;
 abstract class User extends Base implements AdvancedUserInterface
 {
    /**
-    * @ORM\Column(name="email", type="string", length=255)
+    * @ORM\Column(name="email", type="string", length=255, unique=true)
     * @var string
     */
    private $email;
