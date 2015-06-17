@@ -21,7 +21,7 @@ class UserSpec extends ObjectBehavior
 {
     function let()
     {
-        $this->beAnInstanceOf('spec\NoahGlaser\EntityBundle\Entity\UserTest');
+        $this->beAnInstanceOf('spec\NoahGlaser\EntityBundle\Entity\BaseUserTest');
     }
     
     function it_have_getters_setter_for_base_properties()
