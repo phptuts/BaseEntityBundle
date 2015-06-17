@@ -20,7 +20,7 @@ use Symfony\Component\Security\Core\User\AdvancedUserInterface;
  * @ORM\MappedSuperclass()
  * @ORM\HasLifecycleCallbacks()
  */
-abstract class User extends Base implements AdvancedUserInterface
+abstract class BaseUser extends Base implements AdvancedUserInterface
 {
    /**
     * @ORM\Column(name="email", type="string", length=255, unique=true)
