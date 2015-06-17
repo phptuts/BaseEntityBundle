@@ -17,7 +17,7 @@ use NoahGlaser\EntityBundle\Entity\User;
  *
  * @author student
  */
-class UserSpec extends ObjectBehavior
+class BaseUserSpec extends ObjectBehavior
 {
     function let()
     {
