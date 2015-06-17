@@ -9,7 +9,7 @@ namespace spec\NoahGlaser\EntityBundle\Entity;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
-use NoahGlaser\EntityBundle\Entity\User;
+use NoahGlaser\EntityBundle\Entity\BaseUser;
 
 
 /**
@@ -73,7 +73,7 @@ class BaseUserSpec extends ObjectBehavior
     }
 }
 
-class UserTest extends User
+class BaseUserTest extends BaseUser
 {
     //put your code here
 }
